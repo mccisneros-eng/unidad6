@@ -1,0 +1,238 @@
+/* =========================
+   RESET GENERAL
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body {
+
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f5f7fb;
+    color: #333;
+
+}
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+
+.navbar {
+
+    background: rgba(10, 20, 40, 0.85);
+    backdrop-filter: blur(10px);
+    padding: 15px 0;
+
+}
+
+
+.navbar-brand {
+
+    font-size: 24px;
+    color: white !important;
+
+}
+
+
+.nav-link {
+
+    color: white !important;
+    margin-left: 20px;
+    transition: 0.3s;
+
+}
+
+
+.nav-link:hover {
+
+    color: #00bfff !important;
+
+}
+
+
+
+/* =========================
+   HERO
+========================= */
+
+
+header {
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+
+    background: linear-gradient(
+        135deg,
+        #0f2027,
+        #203a43,
+        #2c5364
+    );
+
+    color:white;
+
+}
+
+
+
+header h1 {
+
+    font-size: 55px;
+    font-weight: 700;
+
+}
+
+
+
+header h1 span {
+
+    color:#00bfff;
+
+}
+
+
+
+header h2 {
+
+    margin-top:20px;
+    font-size:30px;
+    color:#ddd;
+
+}
+
+
+
+header p {
+
+    margin-top:25px;
+    font-size:18px;
+    line-height:1.7;
+
+}
+
+
+
+/* FOTO PERFIL */
+
+
+.perfil {
+
+    width:300px;
+    height:300px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    border:8px solid white;
+
+    box-shadow:
+    0 0 30px rgba(0,191,255,0.5);
+
+    transition:0.4s;
+
+}
+
+
+
+.perfil:hover {
+
+    transform:scale(1.05);
+
+}
+
+
+
+/* BOTONES */
+
+
+.btn-primary {
+
+    background:#00bfff;
+    border:none;
+    padding:12px 30px;
+
+    border-radius:30px;
+
+    font-weight:bold;
+
+    transition:0.3s;
+
+}
+
+
+
+.btn-primary:hover {
+
+    background:white;
+    color:#00bfff;
+
+    transform:translateY(-5px);
+
+}
+
+
+
+
+/* =========================
+   SECCIONES
+========================= */
+
+
+section {
+
+    padding:90px 0;
+
+}
+
+
+
+section h2 {
+
+    font-size:40px;
+
+    font-weight:700;
+
+}
+
+
+
+hr {
+
+    width:80px;
+
+    height:4px;
+
+    background:#00bfff;
+
+    border:none;
+
+    margin:20px auto 40px;
+
+}
+
+
+
+#about p {
+
+    font-size:20px;
+
+    line-height:1.8;
+
+    text-align:center;
+
+}
+#contacto {
+    display: block !important;
+    background: white;
+    color: black;
+    min-height: 500px;
+}
